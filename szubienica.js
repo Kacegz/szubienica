@@ -110,7 +110,7 @@ function sprawdz(nr)
 		document.getElementById(element).style.cursor = "default";
 		document.getElementById(element).setAttribute("onclock",";");
 		ile_skuch++;
-		var obraz = "s"+ile_skuch+".jpg";
+		var obraz = "img/s"+ile_skuch+".jpg";
 		document.getElementById("szubienica").innerHTML='<img src="'+obraz+'"alt=""/>';
 	}
 	
